@@ -82,7 +82,7 @@ class _LoginScreenState extends State<LoginScreen> {
   void login() {
     isChecking?.change(false);
     isHandsUp?.change(false);
-    if (_emailController.text == "admin@gmail.com" &&
+    if (_emailController.text == "ammar@gmail.com" &&
         _passwordController.text == "admin") {
       successTrigger?.fire();
     } else {
